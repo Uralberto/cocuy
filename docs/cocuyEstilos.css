@@ -9,7 +9,7 @@ html {
     animation: escalarCocuy 1s forwards
 }
 
-@keyframes esclarCocuy {
+@keyframes escalarCocuy {
 to {
     transform: scaleY(1.3);
 }
