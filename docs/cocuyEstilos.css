@@ -6,11 +6,14 @@ html {
     position: relative;
     width: 100%;
     height: 200px;
-    animation: escalarCocuy 1s forwards
+    animation: escalarCocuy 1s forwards;
+    transform-origin: 0 0;
+
 }
 
 @keyframes escalarCocuy {
 to {
+   
     transform: scaleY(1.3);
 }
 }
