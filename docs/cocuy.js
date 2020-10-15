@@ -1,12 +1,13 @@
 var tiempoIntervalo = 50;
 var tiempoAnimacion = 600;
 var lineWidth = 2;
+var factorAltura = .13
 
 function animarCapa1() {
   let capa1 = document.getElementById("capa1");
   let ctx = capa1.getContext("2d");
   let width = capa1.width;
-  let height = 0.13 * width;
+  let height = factorAltura * width;
 
   let piax = 0;
   let piay = 0.77 * height;
@@ -93,7 +94,7 @@ function animarCapa2() {
   let capa2 = document.getElementById("capa2");
   let ctx = capa2.getContext("2d");
   let width = capa2.width;
-  let height = 0.13 * width;
+  let height = factorAltura * width;
 
   let piax = 0;
   let piay = 0.71 * height;
@@ -181,7 +182,7 @@ function animarCapa3() {
   let capa3 = document.getElementById("capa3");
   let ctx = capa3.getContext("2d");
   let width = capa3.width;
-  let height = 0.13 * width;
+  let height = factorAltura * width;
 
   let piax = 0;
   let piay = 0.71 * height;
@@ -333,7 +334,7 @@ function animarCapa4() {
   let capa4 = document.getElementById("capa4");
   let ctx = capa4.getContext("2d");
   let width = capa4.width;
-  let height = 0.13 * width;
+  let height = factorAltura * width;
 
   let piax = 0;
   let piay = 0.43 * height;
@@ -423,7 +424,7 @@ function animarCapa5() {
   let capa5 = document.getElementById("capa5");
   let ctx = capa5.getContext("2d");
   let width = capa5.width;
-  let height = 0.13 * width;
+  let height = factorAltura * width;
 
   let p1x = 0;
   let p1y = 0;
